@@ -57,6 +57,7 @@ header nav ul a{
     padding: 50px;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .div1{
     background-color: bisque;
@@ -64,6 +65,8 @@ header nav ul a{
     height: 400px;
     border-radius: 70px;
     background-size: 400px 400px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/delicious-chocolate-chip-cookies-arrangement_23-2150714604.avif');
 }
 .div2{
@@ -72,6 +75,8 @@ header nav ul a{
     height: 400px;
     background-size: 370px 400px;
     border-radius: 70px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/delicious-ice-cream-with-topping_23-2150735486.avif');
 
 }
@@ -82,6 +87,8 @@ header nav ul a{
     border-radius: 70px;
     background-size: 400px 400px;
     background-repeat: no-repeat;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/cakes-sweets-parties-chocolate-brigadeiro-pudding_538646-6611.avif');
 }
 h2{
@@ -102,6 +109,7 @@ h2{
     padding: 50px;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .div4{
     background-color: bisque;
@@ -109,6 +117,8 @@ h2{
     height: 400px;
     border-radius: 70px;
     background-size: 400px 400px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/french-choux-pastry-with-white-cream-strawberries_140725-5809.avif');
 }
 .div5{
@@ -123,6 +133,8 @@ h2{
     width: 400px;
     height: 400px;
     border-radius: 70px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/various-muffins-stand_1048944-16836590.jpg');
     background-size: 350px 400px;
 }
@@ -133,6 +145,7 @@ h2{
     padding: 50px;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .div7{
     background-color: bisque;
@@ -140,6 +153,8 @@ h2{
     height: 400px;
     border-radius: 70px;
     background-size: 400px 400px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/french-choux-pastry-with-white-cream-strawberries_140725-5809.avif');
 }
 .div8{
@@ -147,6 +162,8 @@ h2{
     width: 400px;
     height: 400px;
     border-radius: 70px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/flying-cakes-with-berries_23-2151950810.avif');
 }
 .div9{
@@ -154,6 +171,8 @@ h2{
     width: 400px;
     height: 400px;
     border-radius: 70px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/various-muffins-stand_1048944-16836590.jpg');
     background-size: 350px 400px;
 }
@@ -164,6 +183,7 @@ h2{
     padding: 50px;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .div10{
     background-color: bisque;
@@ -171,6 +191,8 @@ h2{
     height: 400px;
     border-radius: 70px;
     background-size: 400px 400px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/french-choux-pastry-with-white-cream-strawberries_140725-5809.avif');
 }
 .div11{
@@ -178,6 +200,8 @@ h2{
     width: 400px;
     height: 400px;
     border-radius: 70px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/flying-cakes-with-berries_23-2151950810.avif');
 }
 .div12{
@@ -185,6 +209,8 @@ h2{
     width: 400px;
     height: 400px;
     border-radius: 70px;
+    flex-grow: 1;
+    flex-basis: 200;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/various-muffins-stand_1048944-16836590.jpg');
     background-size: 350px 400px;
 }
@@ -195,4 +221,53 @@ h2{
 .footer{
     background-color: rgb(81, 22, 22);
     height: 400px;
+}
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
 }
