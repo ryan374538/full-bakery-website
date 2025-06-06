@@ -2,7 +2,7 @@ header nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    padding-right: 15px;  
+    padding-right: 15px;
 }
 header{
     display: flex;
@@ -21,7 +21,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 1300px 700px;
     text-align: center;
 }
 .logo{
@@ -41,13 +41,14 @@ header nav ul a{
 }
  p{
     color:bisque;
-    font-size:clamp(2rem,9vw,10rem) ;
-    padding-top: 35vh;
+    font-size: 110px;
+    padding-top: 40vh;
     top: 0;
     position: sticky;
     background-attachment: fixed;
     position: absolute;
     font-weight: bold;
+
 }
 .container1{
     height: 400px;
@@ -85,8 +86,8 @@ header nav ul a{
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/cakes-sweets-parties-chocolate-brigadeiro-pudding_538646-6611.avif');
 }
 h2{
-    padding: min(5rem ,8%);
-    font-size: clamp(1.8rem,5vw,5rem);
+    padding: 90px;
+    font-size: 70px;
     font-family: sans-serif;
     font-weight: bold;
     justify-content: center;
@@ -197,7 +198,7 @@ h2{
     background-size: 350px 400px;
 }
 .form{
-    min-height: 600px;
+    height: 500px;
     background-color: bisque;
     display: flex;
     justify-content: center;
@@ -248,7 +249,7 @@ form h1{
 }
 button{
     background-color: wheat;
-    height: 45px;
+    height: 50px;
     width: 150px;
     border-radius: 20px;
     font-weight: bold;
@@ -256,11 +257,10 @@ button{
     outline: none;
     border: none;
     margin-top: 3px;
-    color: black;
 }
 .order{
     background-color: bisque;
     color: rgb(255, 140, 0);
     text-align: center;
-    font-size: clamp(1.5rem,4vw,10rem);
+    font-size: 70px;
 }
