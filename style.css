@@ -50,35 +50,41 @@ header nav ul a{
     font-weight: bold;
 }
 .container1{
-    height: 400px;
+    min-height: 400px;
     background-color: rgb(250, 233, 213);
-    display: flex;
+    display: grid;
     padding: 50px;
     gap: 50px;
     justify-content: center;
 }
 .div1{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
     border-radius: 70px;
-    background-size: 400px 400px;
+    background-size:clamp(290px 290px ,30vw 30vw,);
     background-repeat: no-repeat;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/delicious-chocolate-chip-cookies-arrangement_23-2150714604.avif');
 }
 .div2{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
-    background-size: 370px 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
+    background-size: clamp(290px 290px ,30vw 30vw,400px 400px);
     border-radius: 70px;
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/delicious-ice-cream-with-topping_23-2150735486.avif');
 
 }
 .div3{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
     border-radius: 70px;
     background-size: 400px 400px;
     background-repeat: no-repeat;
@@ -96,84 +102,98 @@ h2{
     text-align: center;
 }
 .container2{  
-    height: 400px;
+    min-height: 400px;
     background-color: rgb(250, 233, 213);
-    display: flex;
+    display: grid;
     padding: 50px;
     gap: 50px;
     justify-content: center;
 }
 .div4{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
     border-radius: 70px;
+    min-width: 290px;
+    min-height: 290px;
     background-size: 400px 400px;
     background-repeat: no-repeat;
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/french-choux-pastry-with-white-cream-strawberries_140725-5809.avif');
 }
 .div5{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
     border-radius: 70px;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/flying-cakes-with-berries_23-2151950810.avif');
 }
 .div6{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
     border-radius: 70px;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/various-muffins-stand_1048944-16836590.jpg');
     background-size: 350px 400px;
 }
 .container3{  
-    height: 400px;
+    min-height: 400px;
     background-color: rgb(250, 233, 213);
-    display: flex;
+    display: grid;
     padding: 50px;
     gap: 50px;
     justify-content: center;
 }
 .div7{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
     border-radius: 70px;
+    min-width: 290px;
+    min-height: 290px;
     background-size: 400px 400px;
     background-repeat: no-repeat;
     background-image:linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent), url('img/french-choux-pastry-with-white-cream-strawberries_140725-5809.avif');
 }
 .div8{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
     border-radius: 70px;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/flying-cakes-with-berries_23-2151950810.avif');
 }
 .div9{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
     border-radius: 70px;
+    min-width: 290px;
+    min-height: 290px;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/various-muffins-stand_1048944-16836590.jpg');
     background-size: 350px 400px;
 }
 .container4{  
-    height: 400px;
+    min-height: 400px;
     background-color: rgb(250, 233, 213);
-    display: flex;
+    display: grid;
     padding: 50px;
     gap: 50px;
     justify-content: center;
 }
 .div10{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
     border-radius: 70px;
     background-size: 400px 400px;
     background-repeat: no-repeat;
@@ -181,16 +201,20 @@ h2{
 }
 .div11{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
     border-radius: 70px;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/flying-cakes-with-berries_23-2151950810.avif');
 }
 .div12{
     background-color: bisque;
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
+    min-width: 290px;
+    min-height: 290px;
     border-radius: 70px;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top,rgb(255, 246, 175) 20%,transparent 30%,transparent),url('img/various-muffins-stand_1048944-16836590.jpg');
@@ -199,7 +223,7 @@ h2{
 .form{
     min-height: 600px;
     background-color: bisque;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     gap: 170px;
