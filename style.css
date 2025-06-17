@@ -152,12 +152,11 @@
     background-color: rgb(70, 19, 19);
     border-radius: 35px;
     padding: 30px;
-    width: 400px;
+    width: 100%;
     max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    aspect-ratio: 1/1;
   }
   form h1 {
     color: white;
@@ -203,7 +202,6 @@
     header nav ul {
       flex-direction: column;
       gap: 10px;
-      text-align: center;
     }
     .form {
       flex-direction: column;
