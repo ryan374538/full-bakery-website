@@ -65,7 +65,6 @@
     background-color: rgb(81, 22, 22);
     color: bisque;
     text-align: center;
-    position: sticky;
     top: 0;
     z-index: 5;
   }
