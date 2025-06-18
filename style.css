@@ -50,7 +50,7 @@
   }
   .banner p {
     color: bisque;
-    font-size: clamp(2rem, 9vw, 10rem);
+    font-size: clamp(4rem, 9vw, 10rem);
     padding-top: 15vh;
     position: absolute;
     width: 100%;
@@ -92,7 +92,6 @@
   .div1 {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.694) 20%, transparent 30%, transparent), 
       url('img/delicious-chocolate-chip-cookies-arrangement_23-2150714604.avif');
-      backdrop-filter: blur(10px);
   }
   .div2 {
     background-image: linear-gradient(to top, rgb(255, 246, 175) 20%, transparent 30%, transparent), 
