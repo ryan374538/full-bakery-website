@@ -68,7 +68,7 @@
   }
   
   /* PRODUCT CONTAINERS */
-  .container1, .container2, .container3, .container4 {
+  .container1{
     background-color: rgb(250, 233, 213);
     padding: 50px 20px;
     display: grid;
@@ -90,8 +90,9 @@
   
   /* BACKGROUND IMAGES */
   .div1 {
-    background-image: linear-gradient(to top, rgb(255, 246, 175) 20%, transparent 30%, transparent), 
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.694) 20%, transparent 30%, transparent), 
       url('img/delicious-chocolate-chip-cookies-arrangement_23-2150714604.avif');
+      backdrop-filter: blur(10px);
   }
   .div2 {
     background-image: linear-gradient(to top, rgb(255, 246, 175) 20%, transparent 30%, transparent), 
@@ -141,7 +142,7 @@
     background-color: bisque;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 60px;
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
@@ -151,10 +152,11 @@
     border-radius: 35px;
     padding: 30px;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    aspect-ratio: 1/1;
   }
   form h1 {
     color: white;
