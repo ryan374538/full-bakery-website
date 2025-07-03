@@ -61,7 +61,7 @@
   /* SECTION TITLES */
   .productheader{
     padding: min(3rem, 8%);
-    font-size: clamp(3rem, 5vw, 4rem);
+    font-size: clamp(3.5rem, 4vw, 5rem);
     background-color: rgb(81, 22, 22);
     color: bisque;
     text-align: center;
@@ -205,6 +205,7 @@
   }
   .description{
     margin-top: 32vh;
+    padding-bottom: 10px;
   }
   .productname{
     color: white;
