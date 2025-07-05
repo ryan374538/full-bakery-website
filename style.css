@@ -154,11 +154,6 @@
       flex-direction: column;
       gap: 10px;
     }
-    .form {
-      flex-direction: column;
-      align-items: center;
-
-    }
   }
   .buy{
     width: 100%;
@@ -259,5 +254,4 @@
   }
   .icons a:hover{
     color: rgb(248, 224, 117);
-
   }
