@@ -160,6 +160,7 @@
   @media (max-width: 768px) {
     nav ul {
       display: none;
+      flex-direction: column;
       background-color: bisque;
       position: absolute;
       top: 60px;
@@ -170,6 +171,7 @@
       padding: 30px;
       transition: all 0.3s ease;
       gap: 0;
+      border-radius: 10px;
     }
 
     nav ul.show {
