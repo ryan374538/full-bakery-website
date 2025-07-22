@@ -4,7 +4,6 @@
   }
   
   body {
-    font-family: sans-serif;
   }
   
   /* HEADER */
@@ -33,9 +32,15 @@
     padding: 0;
   }
   header nav ul a {
-    color: brown;
+    color:  rgb(81, 22, 22);
     text-decoration: none;
     font-size: 18px;
+  }
+  .menu-toggle{
+    display: none;
+    color:  rgb(81, 22, 22);
+    font-size: 1.5rem;
+    cursor: pointer;
   }
   
   /* BANNER */
@@ -92,7 +97,6 @@
   .div1 {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.842) 20%,  transparent 80%), 
       url('img/delicious-chocolate-chip-cookies-arrangement_23-2150714604.avif');
-      backdrop-filter: blur(20px);
   }
   .div2 {
     background-image: linear-gradient(to top,  rgba(0, 0, 0, 0.842) 20%,  transparent 80%), 
@@ -106,6 +110,19 @@
     background-image: linear-gradient(to top,  rgba(0, 0, 0, 0.842) 20%,  transparent 80%), 
       url('img/french-choux-pastry-with-white-cream-strawberries_140725-5809.avif');
   }
+  .div1:hover{
+    transform: scale(1.1);
+  }
+  .div1:hover{
+    transform: scale(1.1);
+  }
+  .div1:hover{
+    transform: scale(1.1);
+  }
+  .div1:hover{
+    transform: scale(1.1);
+  }
+
  
   
   /* ORDER TITLE */
@@ -153,6 +170,24 @@
     header nav ul {
       flex-direction: column;
       gap: 10px;
+    }
+    nav ul{
+      flex-direction: column;
+      background-color:bisque;
+      position:absolute ;
+      top: 60px;
+      text-align: center;
+      width: 30%;
+      padding-top: 40px;
+      right: 20px;
+      padding: 30px;
+      display: none;
+    }
+    nav ul.show{
+      display: flex;
+    }
+    .menu-toggle{
+      display: block;
     }
   }
   .buy{
@@ -250,7 +285,8 @@
     margin-left: 10px;
   }
   button:hover{
-    background-color: rgb(240, 183, 114);
+    background-color:  rgb(81, 22, 22);
+    color: bisque;
   }
   .icons a:hover{
     color: rgb(248, 224, 117);
