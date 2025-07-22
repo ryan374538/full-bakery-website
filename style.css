@@ -164,29 +164,34 @@
     padding: 30px;
     text-align: center;
   }
-  
-  /* MEDIA QUERIES */
+  .menu-toggle {
+    display: none;
+    color: rgb(81, 22, 22);
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
   @media (max-width: 768px) {
-    header nav ul {
+    nav ul {
+      display: none;
       flex-direction: column;
-      gap: 10px;
-    }
-    nav ul{
-      flex-direction: column;
-      background-color:bisque;
-      position:absolute ;
+      color: bisque;
+      background-color: bisque;
+      position: absolute;
       top: 60px;
       text-align: center;
       width: 30%;
       padding-top: 40px;
       right: 20px;
       padding: 30px;
-      display: none;
+      transition: all 0.3s ease;
     }
-    nav ul.show{
+
+    nav ul.show {
       display: flex;
     }
-    .menu-toggle{
+
+    .menu-toggle {
       display: block;
     }
   }
