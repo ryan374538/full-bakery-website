@@ -119,23 +119,11 @@ header nav ul li a {
 
 /* ORDER TITLE */
 .order {
-  background-color: bisque;
+  background-color: rgb(250, 233, 213);
   color: rgb(255, 140, 0);
   text-align: center;
   font-size: clamp(1.2rem, 2.5vw, 5rem);
   padding: 40px 10px;
-}
-
-/* FORM SECTION */
-.clientreview {
-  min-height: 600px;
-  background-color: bisque;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 30px;
 }
 
 button {
@@ -203,7 +191,7 @@ button:hover {
   justify-content: center;
   place-items: center;
   min-height: 60vh;
-  background-color: bisque;
+  background-color:  rgb(250, 233, 213);
   gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
