@@ -61,7 +61,7 @@ header nav ul li a {
 
 .banner p {
   color: bisque;
-  font-size: clamp(3rem, 9vw, 10rem);
+  font-size: clamp(3rem, 8vw, 10rem);
   padding-top: 15vh;
   position: absolute;
   width: 100%;
