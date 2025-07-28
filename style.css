@@ -45,7 +45,7 @@ header nav ul li a {
   font-size: 1.5rem;
   cursor: pointer;
   color: bisque;
-  text-align: right;
+  padding-left: 10vw;
 }
 
 /* BANNER */
