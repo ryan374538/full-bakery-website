@@ -94,6 +94,7 @@ header nav ul li a {
   width: 100%;
   aspect-ratio: 1 / 1;
   max-width: 300px;
+  min-width: 300px;
   border-radius: 40px;
   overflow: hidden;
 }
