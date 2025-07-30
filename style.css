@@ -210,7 +210,7 @@ button:hover {
   justify-content: center;
   place-items: center;
   gap: 20px;
-  min-height: 60vh;
+  min-height: 50vh;
   background-color: rgb(250, 233, 213)rgb(250, 233, 213);
 }
 
