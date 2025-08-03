@@ -50,7 +50,7 @@ header nav ul li a {
 
 /* BANNER */
 .banner {
-  padding-top: 60px;
+  top: 0;
   height: 100vh;
   background: linear-gradient(rgba(100, 23, 23, 0.479), rgba(100, 23, 23, 0.479)),
     url('img/chocolate-puff-pastry-croissant-chocolate-eclair-sweet-raisin-roll_140725-5637.avif');
@@ -185,7 +185,7 @@ button:hover {
 }
 
 .description {
-  margin-top: 26.5vh;
+  margin-top: 32vh;
   position: relative;
   z-index: 1;
 }
@@ -210,7 +210,7 @@ button:hover {
   justify-content: center;
   place-items: center;
   gap: 20px;
-  min-height: 50vh;
+  min-height: 70vh;
   background-color: rgb(250, 233, 213)rgb(250, 233, 213);
 }
 
