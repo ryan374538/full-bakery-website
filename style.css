@@ -50,6 +50,7 @@ header nav ul li a {
 
 /* BANNER */
 .banner {
+  padding-top: 60px;
   height: 100vh;
   background: linear-gradient(rgba(100, 23, 23, 0.479), rgba(100, 23, 23, 0.479)),
     url('img/chocolate-puff-pastry-croissant-chocolate-eclair-sweet-raisin-roll_140725-5637.avif');
