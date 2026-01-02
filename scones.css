@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to top, white,rgb(228, 168, 93));
+    background-position: center;
+    background-size:cover ;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding:  20px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    height: 100vh;
+    width: 100%;
+    gap: 30px;
+}
+.pic{
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+}
+.cookie{
+    aspect-ratio: 1/1;
+    max-width: 450px;
+    background: url(img/delicious-chocolate-chip-cookies-arrangement_23-2150714604.avif);
+    background-size: cover;
+    border-radius: 20px;
+    padding: 30px;
+}
+.title{
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.longdescription{
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+}
