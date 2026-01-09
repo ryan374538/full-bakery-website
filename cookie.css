@@ -39,7 +39,7 @@ header {
     padding-left: 10vw;
   }
 body{
-    background-image: linear-gradient(to top, white,rgb(228, 168, 93));
+    background-image:(url('img/Untitled-1.png'));
     background-position: center;
     background-size:cover ;
     display: flex;
