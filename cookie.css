@@ -153,6 +153,9 @@ button{
     header nav ul li {
       margin: 10px 0;
     }
+    header nav ul li a{
+      color: beige;
+    }
     .clientReview{
       gap: 20px;
     }

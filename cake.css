@@ -154,7 +154,12 @@ a{
   
     header nav ul li {
       margin: 10px 0;
+      color: beige;
     }
+    header nav ul li a {
+      color: beige;
+    }
+
     .clientReview{
       gap: 20px;
     }

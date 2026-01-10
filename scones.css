@@ -50,6 +50,43 @@ header {
     color:  rgb(81, 22, 22);
     padding-left: 10vw;
   }
+  /* RESPONSIVE NAVIGATION */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  header nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(81, 22, 22);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 999;
+    transition: all 1s ease;
+  }
+
+  header nav ul.show {
+    display: flex;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+    color: beige;
+  }
+  header nav ul li a {
+    color: beige;
+  }
+
+  .clientReview{
+    gap: 20px;
+  }
+}
 .product{
     display: flex;
     align-items: center;
@@ -80,6 +117,7 @@ header {
     max-width: 400px;
     display: flex;
     align-items: center;
+    padding: 20px;
     justify-content: center;
     font-weight: bold;
     font-size: clamp(1.5rem,3vw,5rem);
